@@ -1,0 +1,475 @@
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PROPIEDADES DEL HEADER*/
+
+header{
+    background-image: url(../img/fondo.jpg);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img{
+    height: 7rem;
+}
+
+header h1{
+    color: rgb(255, 0, 255);
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0.4rem; 
+}
+
+header nav ul li a{
+    color: rgb(255, 0, 255);
+    text-decoration: none;
+}
+
+/*PEOPIEDADES DEL MAIN*/
+
+.mainInicio{
+    display: grid;
+    grid-template-areas: "mainH2 mainH2"
+                         "imagenD1 imagenD2"
+                         "imagenD3 imagenD4";
+    text-align: center;
+    align-items: center;
+    background: radial-gradient( white, rgb(212, 95, 193)) ;
+    border-top: 5px solid rgb(255, 0, 234);
+    padding-bottom: 1rem;
+}
+
+
+.mainH2{
+    grid-area: mainH2;
+    color: rgb(255, 0, 255);
+    font-family: cursive;
+}
+
+.imagenD1{
+    grid-area: imagenD1;
+    padding: 1rem;
+}
+
+.imagenD1 p{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.imagenD2{
+    grid-area: imagenD2;
+    padding: 1rem;
+}
+
+.imagenD2 p{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.imagenD3{
+    grid-area: imagenD3;
+    padding: 1rem;
+}
+
+.imagenD3 p{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.imagenD4{
+    grid-area: imagenD4;
+    padding: 1rem;
+}
+
+.imagenD4 p{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+main img{
+    width: 200px;
+}
+
+/*PROPIEDADES DE MAIN EN TIENDA*/
+
+.mainTienda{
+    text-align: center;
+    align-items: center;
+    background: radial-gradient(white, rgb(212, 95, 193)) ;
+    border-top: 5px solid rgb(255, 0, 234);
+    padding-bottom: 1rem;
+}
+
+.mainH2{
+    color: rgb(255, 0, 255);
+    font-family: cursive;
+    margin: 1.5rem;    
+    text-align: center;
+}
+
+main div ul li{
+    list-style: none;
+}
+
+.lista{
+    display: grid;
+    grid-template-areas:"pro1 pro2"
+                        "pro3 pro4"
+                        "pro5 pro6";
+    align-items:baseline;
+}
+
+.lista p{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.lista button{
+    padding: 5px;
+    text-align: center;
+    border-color: rgb(228, 130, 187);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+}
+
+.pro1{
+    grid-area: pro1;
+    padding: 1rem;
+}
+
+.pro2{
+    grid-area: pro2;
+    padding: 1rem;
+}
+
+.pro3{
+    grid-area: pro3;
+    padding: 1rem;
+}
+
+.pro4{
+    grid-area: pro4;
+    padding: 1rem;
+}
+
+.pro5{
+    grid-area: pro5;
+    padding: 1rem;
+}
+
+.pro6{
+    grid-area: pro6;
+    padding: 1rem;
+}
+
+/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+
+.mainPropuestas{
+    background: radial-gradient(white, rgb(212, 95, 193)) ;
+    border-top: 5px solid rgb(255, 0, 234);
+    padding-bottom: 1rem;
+    
+}
+
+.propuestas{
+    display: grid;
+    grid-template-areas: "img parrafo";
+    gap: 2rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.img{
+    grid-area: img;
+}
+
+.parrafo{
+    grid-area: parrafo;
+    width: 200px;
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: justify;
+}
+
+/*PROPIEDADES DEL MAIN-NOSOTROS*/
+
+.mainNosotros{
+    background: radial-gradient(white, rgb(212, 95, 193)) ;
+    border-top: 5px solid rgb(255, 0, 234);
+    padding-bottom: 1rem;
+}
+
+.descripcion{
+    display: grid;
+    grid-template-areas: "imgN1 imgN2"
+                         "parrafoN parrafoN";
+    gap: 2rem;
+    justify-content: center;  
+}
+
+.imgN1{
+    grid-area: imgN1;
+    margin-top: 7px;
+}
+
+.imgN2{
+    grid-area: imgN2;
+}
+
+.parrafoN{
+    grid-area: parrafoN;
+    width: 450px;
+    height: 220px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/*PROPIEDADES DEL FOOTER*/
+
+
+footer{
+    height: 250px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(179, 85, 166);
+    border-top: 4px solid rgb(255, 0, 234);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column; 
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+footer img{
+    display: none;
+}
+
+footer div h3{
+    padding-left: 14px;
+}
+
+footer nav ul li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer div a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:440px) {
+/*ESTILOS DE MAIN-INICIO*/
+
+
+    .mainInicio{
+        display: grid;
+        grid-template-areas: "mainH2" 
+                             "imagenD1" 
+                             "imagenD2"
+                             "imagenD3" 
+                             "imagenD4";
+    }
+    
+
+
+/*ESTILOS DE MAIN-TIENDA*/
+
+    .lista{
+        display: grid;
+        grid-template-areas: "pro1"
+                             "pro2"
+                             "pro3"
+                             "pro4"
+                             "pro5"
+                             "pro6";
+    }
+
+/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+
+    .propuestas{
+        display: grid;
+        grid-template-areas: "img"
+                             "parrafo";
+    }
+
+    
+
+
+/*PROPIEDADES DEL MAIN-NOSOTROS*/
+
+    .descripcion{
+        display: grid;
+        grid-template-areas: "imgN1"
+                             "imgN2"
+                             "parrafoN";
+        gap: 2rem; 
+    }
+
+    .parrafoN{
+        height: 400px;
+        width: 200px;
+    }
+
+}
+
+
+@media screen and (min-width:600px) {
+/*ESTILOS DE MAIN-INICIO*/
+
+    header nav ul li{
+        list-style: none;
+        font-size: 2rem;
+        padding: 1rem; 
+    }
+
+    .mainInicio{
+        display: grid;
+        grid-template-areas: "mainH2 mainH2"
+                             "imagenD1 imagenD2"
+                             "imagenD3 imagenD4";
+    }
+
+    .footer{
+        height: 250px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        background-color: rgb(179, 85, 166);
+        border-top: 4px solid rgb(255, 0, 234);
+        display: flex;
+        flex-direction:row;
+        gap: 1rem;
+    }
+
+    footer img{
+        display: block;
+        height: 7rem;
+    }
+
+    footer nav {
+        padding-top: 18px;
+    }
+
+/*ESTILOS DE MAIN-TIENDA*/
+    .lista{
+        display: grid;
+        grid-template-areas: "pro1 pro2"
+                             "pro3 pro4"
+                             "pro5 pro6";
+    }
+
+/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+
+    .propuestas{
+        display: grid;
+        grid-template-areas: "img parrafo";
+    }
+
+/*PROPIEDADES DEL MAIN-NOSOTROS*/
+
+    .descripcion{
+        display: grid;
+        grid-template-areas: "imgN1 imgN2"
+                             "parrafoN parrafoN";
+    }
+
+    .imgN2{
+        margin-left: 15px;
+    }
+}
+
+
+
+@media screen and (min-width:1024px) {
+/*ESTILOS DE MAIN-INICIO*/
+
+    .menu li:hover{
+    background-color: rgb(248, 160, 248);
+    transition: 0.6s;
+    border-radius: 50px;
+    }
+
+    .mainInicio{
+        display: grid;
+        grid-template-areas: "mainH2 mainH2 mainH2 mainH2"
+                             "imagenD1 imagenD2 imagenD3 imagenD4";
+    }
+
+/*ESTILOS DE MAIN-TIENDA*/
+
+    .lista{
+        display: grid;
+        grid-template-areas:"pro1 pro2 pro3"
+                            "pro4 pro5 pro6";
+        
+    }
+
+/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+
+    .propuestas{
+        display: grid;
+        grid-template-areas: "img parrafo";
+    }
+
+/*PROPIEDADES DEL MAIN-NOSOTROS*/
+
+    .mainNosotros{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .descripcion{
+        display: grid;
+        grid-template-areas: "imgN1 imgN2"
+                             "parrafoN parrafoN";
+        margin-top: 2rem;  
+    }
+
+    .imgN2{
+        margin-left: 60px;
+    }
+
+
+    .parrafoN{
+        width: 500px;
+    }
+
+}
+
+
+
+
