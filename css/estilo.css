@@ -468,6 +468,12 @@ footer div a{
         width: 500px;
     }
 
+/*ANIMACIONES PARA EL DESAFIO*/
+
+    .mainTienda button:hover{
+        font-size: 40px;
+    }
+
 }
 
 
