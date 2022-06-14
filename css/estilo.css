@@ -6,7 +6,25 @@
     box-sizing: border-box;
 }
 
-/*PROPIEDADES DEL HEADER*/
+header{
+    background: linear-gradient( white, rgb(212, 95, 193));
+}
+
+.titulo{
+    color: rgb(255, 0, 255);
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.barra a{
+    color: rgb(255, 0, 255);
+}
+
+.barraA:hover{
+    color: rgb(255, 0, 255);
+}
+
+/*PROPIEDADES DEL HEADER
 
 header{
     background-image: url(../img/fondo.jpg);
@@ -44,7 +62,7 @@ header nav ul li a{
     text-decoration: none;
 }
 
-/*PEOPIEDADES DEL MAIN*/
+/*PEOPIEDADES DEL MAIN
 
 .mainInicio{
     display: grid;
@@ -109,7 +127,7 @@ main img{
     width: 200px;
 }
 
-/*PROPIEDADES DE MAIN EN TIENDA*/
+/*PROPIEDADES DE MAIN EN TIENDA
 
 .mainTienda{
     text-align: center;
@@ -181,7 +199,7 @@ main div ul li{
     padding: 1rem;
 }
 
-/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+/*PROPIEDADES DEL MAIN-PROPUESTAS
 
 .mainPropuestas{
     background: radial-gradient(white, rgb(212, 95, 193)) ;
@@ -213,7 +231,7 @@ main div ul li{
     text-align: justify;
 }
 
-/*PROPIEDADES DEL MAIN-NOSOTROS*/
+/*PROPIEDADES DEL MAIN-NOSOTROS
 
 .mainNosotros{
     background: radial-gradient(white, rgb(212, 95, 193)) ;
@@ -248,7 +266,7 @@ main div ul li{
     text-align: justify;
 }
 
-/*PROPIEDADES DEL FOOTER*/
+/*PROPIEDADES DEL FOOTER
 
 
 footer{
@@ -293,7 +311,7 @@ footer div a{
 /*MEDIA QUERIES*/
 
 @media screen and (max-width:440px) {
-/*ESTILOS DE MAIN-INICIO*/
+/*ESTILOS DE MAIN-INICIO
 
 
     .mainInicio{
@@ -307,7 +325,7 @@ footer div a{
     
 
 
-/*ESTILOS DE MAIN-TIENDA*/
+/*ESTILOS DE MAIN-TIENDA
 
     .lista{
         display: grid;
@@ -319,7 +337,7 @@ footer div a{
                              "pro6";
     }
 
-/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+/*PROPIEDADES DEL MAIN-PROPUESTAS
 
     .propuestas{
         display: grid;
@@ -330,7 +348,7 @@ footer div a{
     
 
 
-/*PROPIEDADES DEL MAIN-NOSOTROS*/
+/*PROPIEDADES DEL MAIN-NOSOTROS
 
     .descripcion{
         display: grid;
@@ -349,7 +367,7 @@ footer div a{
 
 
 @media screen and (min-width:600px) {
-/*ESTILOS DE MAIN-INICIO*/
+/*ESTILOS DE MAIN-INICIO
 
     header nav ul li{
         list-style: none;
@@ -384,7 +402,7 @@ footer div a{
         padding-top: 18px;
     }
 
-/*ESTILOS DE MAIN-TIENDA*/
+/*ESTILOS DE MAIN-TIENDA
     .lista{
         display: grid;
         grid-template-areas: "pro1 pro2"
@@ -392,14 +410,14 @@ footer div a{
                              "pro5 pro6";
     }
 
-/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+/*PROPIEDADES DEL MAIN-PROPUESTAS
 
     .propuestas{
         display: grid;
         grid-template-areas: "img parrafo";
     }
 
-/*PROPIEDADES DEL MAIN-NOSOTROS*/
+/*PROPIEDADES DEL MAIN-NOSOTROS
 
     .descripcion{
         display: grid;
@@ -415,7 +433,7 @@ footer div a{
 
 
 @media screen and (min-width:1024px) {
-/*ESTILOS DE MAIN-INICIO*/
+/*ESTILOS DE MAIN-INICIO
 
     .menu li:hover{
     background-color: rgb(248, 160, 248);
@@ -429,7 +447,7 @@ footer div a{
                              "imagenD1 imagenD2 imagenD3 imagenD4";
     }
 
-/*ESTILOS DE MAIN-TIENDA*/
+/*ESTILOS DE MAIN-TIENDA
 
     .lista{
         display: grid;
@@ -438,14 +456,14 @@ footer div a{
         
     }
 
-/*PROPIEDADES DEL MAIN-PROPUESTAS*/
+/*PROPIEDADES DEL MAIN-PROPUESTAS
 
     .propuestas{
         display: grid;
         grid-template-areas: "img parrafo";
     }
 
-/*PROPIEDADES DEL MAIN-NOSOTROS*/
+/*PROPIEDADES DEL MAIN-NOSOTROS
 
     .mainNosotros{
         display: flex;
@@ -468,14 +486,12 @@ footer div a{
         width: 500px;
     }
 
-/*ANIMACIONES PARA EL DESAFIO*/
+/*ANIMACIONES PARA EL DESAFIO
 
     .mainTienda button:hover{
         font-size: 40px;
     }
 
 }
-
-
 
 
