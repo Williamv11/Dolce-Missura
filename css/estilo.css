@@ -6,22 +6,85 @@
     box-sizing: border-box;
 }
 
+/* PROPIEDADES DEL HEADER */
+
 header{
     background: linear-gradient( white, rgb(212, 95, 193));
 }
 
 .titulo{
-    color: rgb(255, 0, 255);
-    font-size: 3rem;
-    padding-bottom: 1.5rem;
+    color: rgb(165, 29, 165);
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
 }
 
 .barra a{
-    color: rgb(255, 0, 255);
+    color: rgb(165, 29, 165);
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .barraA:hover{
-    color: rgb(255, 0, 255);
+    color: rgb(165, 29, 165);
+}
+
+.fondo a:active{
+    color: rgb(165, 29, 165);
+    background-color: rgb(150, 149, 149);
+}
+
+.fondoDos a:visited{
+    color: rgb(165, 29, 165);
+}
+
+/* PROPIEDADES DEL MAIN */
+
+main{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color:whitesmoke;
+}
+
+.slide img{
+    height: 70vh;
+}
+
+/* PROPIEDADES DEL FOOTER */
+
+footer{
+    padding-bottom: 2rem;
+    background: linear-gradient(whitesmoke, gray);
+}
+
+.seguinos ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+footer div a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.parraFooter{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contacto{
+    color: rgb(65, 65, 65);
+    font-size: 1.3rem;
+}
+
+.volver a:hover{
+    color:black
 }
 
 /*PROPIEDADES DEL HEADER
@@ -308,7 +371,7 @@ footer div a{
     font-size: 1.3rem;
 }
 
-/*MEDIA QUERIES*/
+/*MEDIA QUERIES
 
 @media screen and (max-width:440px) {
 /*ESTILOS DE MAIN-INICIO

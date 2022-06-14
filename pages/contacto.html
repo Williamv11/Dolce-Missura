@@ -8,6 +8,11 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <!-- link de fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&display=swap" rel="stylesheet">
+
     <!-- link de mi css -->
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Dolce Missura-Contacto</title>
@@ -15,7 +20,7 @@
 
 
 <body>
-    <div class="container">
+    <div class="container-xxl text-center">
     <!-- encabezado de la pagina -->
         <header class="row" id="arriba">
             <nav class="navbar navbar-expand-lg">
@@ -35,12 +40,12 @@
                             <li class="nav-item">
                                 <a class="nav-link barraA" href="nosotros.html">Nosotros</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown fondoDos">
                                 <a class="nav-link dropdown-toggle barraA" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Tienda
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item barraA" href="#">Dulce</a></li>
+                                <ul class="dropdown-menu fondo fondoDos" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item barraA" href="tienda.html">Dulce</a></li>
                                     <li><a class="dropdown-item barraA" href="#">Salado</a></li>
                                     <li><a class="dropdown-item barraA" href="#">Regalos</a></li>
                                 </ul>
@@ -54,7 +59,7 @@
             </nav>
         </header>
     <!-- articulos del inicio -->
-        <main>
+        <main class="row">
             <h2 class="subtitulo">Contacto</h2>
             <form action="">
                 <fieldset class="formulario">
@@ -100,33 +105,35 @@
             </form>
         </main>
     <!-- pie de pagina -->
-        <footer class="footer">
-            <div class="logoFooter">
-            <img src="../img/IMG-20220508-WA0014.png" alt="Logo de Dolce Missura" class="imagen">
-            </div>
+    <footer class="footer row">
+        <div class="logoFooter">
+            <img src="../img/IMG-20220508-WA0014.png" alt="Logo de Dolce Missura" height="200px">
+        </div>
+
             <div>
-                <h3>Contacto:</h3>
-                    
-                <p>Cel:1564546665</p>
+                <p class="parraFooter">Contacto:</p>
+                
+                <p class="contacto">Cel:1564546665</p>
             </div>
 
-                <nav>
-                    <h3>Seguinos en:</h3>
-                    <ul> 
-                        <li>
-                            <a href="https://www.facebook.com/dolce.misura" target="_blank">Facebook</a>
-                        </li>
-                        
-                        <li>
-                            <a href="https://instagram.com/misuradolce?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>
-                        </li>
-                    </ul>
-                </nav>
+            <!-- Si quieren seguir a la pagina del proyecto no hay drama ;)--> 
                 
-                <div>
-                    <a href="#arriba">Volver arriba</a>
-                </div>
-        </footer>
+            <nav class="seguinos">
+                <p class="parraFooter">Seguinos en:</p>
+                <ul class="list-unstyled">
+                    <li> 
+                        <a href="https://www.facebook.com/dolce.misura" target="_blank"><img src="../img/facebook-circle-logo-24.png" alt="Logo de Facebook" class="logoRedes"></a>
+                    
+                        <a href="https://instagram.com/misuradolce?igshid=YmMyMTA2M2Y=" target="_blank"><img src="../img/instagram-logo-24.png" alt="Logo de Instagram" class="logoRedes"></a>
+                    </li>
+                </ul>
+            </nav>
+        
+            <div class="volver">
+                <a href="#arriba">Volver arriba</a>
+            </div>
+
+    </footer>
     </div>    
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
