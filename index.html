@@ -34,25 +34,25 @@
                     <div class="collapse navbar-collapse col-6 barra" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link barraA" aria-current="page" href="index.html">Inicio</a>
+                                <a class="nav-link barraA barraM" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link barraA" href="pages/nuestras propuestas.html">Nuestras Propuestas</a>
+                                <a class="nav-link barraA barraM" href="pages/nuestras propuestas.html">Nuestras Propuestas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link barraA" href="pages/nosotros.html">Nosotros</a>
+                                <a class="nav-link barraA barraM" href="pages/nosotros.html">Nosotros</a>
                             </li>
                             <li class="nav-item dropdown fondoDos">
-                                <a class="nav-link dropdown-toggle barraA" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle barraA barraM" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Tienda
                                 </a>
                                 <ul class="dropdown-menu fondo fondoDos" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item barraA" href="pages/tienda.html">Dulce</a></li>
+                                    <li><a class="dropdown-item barraA" href="pages/tienda-dulce.html">Dulce</a></li>
                                     <li><a class="dropdown-item barraA" href="#">Salado</a></li>
                                     <li><a class="dropdown-item barraA" href="#">Regalos</a></li>
                                 </ul>
                                 <li class="nav-item">
-                                    <a class="nav-link barraA" href="pages/contacto.html">Contacto</a>
+                                    <a class="nav-link barraA barraM" href="pages/contacto.html">Contacto</a>
                                 </li>
                             </li>
                         </ul>
@@ -61,17 +61,19 @@
             </nav>
         </header>
     <!-- articulos del inicio -->
-        <main class="row">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" style="width: 75%; margin: 0 auto; height: 85%;">
+        <main class="row main-inicio justify-content-center">
+            <h1>Inicio</h1>
+
+            <div id="carouselExampleControls" class="carousel slide carro" data-bs-ride="carousel">
+                <div class="carousel-inner" style="width: 65%; margin: 0 auto;">
                   <div class="carousel-item active">
-                    <img src="img/bonobon.jfif" class="d-block w-100" alt="imagen de torta">
+                    <img src="img/torta-choco.jpeg" class="d-block w-100 foto" alt="imagen de torta">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/brownie limon.jfif" class="d-block w-100" alt="imagen de torta">
+                    <img src="img/torta-frutilla2.jpeg" class="d-block w-100 foto" alt="imagen de torta">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/torta bombon.jfif" class="d-block w-100" alt="imagen de torta">
+                    <img src="img/lemon.jpeg" class="d-block w-100 foto" alt="imagen de torta">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -82,6 +84,19 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Siguiente</span>
                 </button>
+              </div>
+
+              <div class="card m-4 zoom" style="width: 18rem;">
+                <img src="img/pan-dulce.jpeg" class="card-img-top imgz1" alt="imagen de pan dulce">
+                <div class="card-body">
+                  <p class="card-text">Recibí a Papa Noel con los mejores pan dulces caseros y preparados a tu gusto.</p>
+              </div>
+              </div>
+              <div class="card m-4 zoom" style="width: 18rem;">
+                <img src="img/borwnie.jpeg" class="card-img-top imgz1" alt="imagen de brownie">
+                <div class="card-body">
+                  <p class="card-text">Tenemos pequeñas mini tortas de brownie ideales para el postre o la merienda.</p>
+                </div>
               </div>
         </main>
     <!-- pie de pagina -->
@@ -114,6 +129,10 @@
                 </div>
 
         </footer>
+        <div class="wpp">
+            <a href="https://wa.me/+541168566361" target="_blank" class="enlace"><img src="img/whatsapp-logo-24.png" class="colori" alt="logo de whatsapp"
+                width="40px" height="40px"></a>
+        </div>
     </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
